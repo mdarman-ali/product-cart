@@ -1,0 +1,28 @@
+
+body{
+    font-family: Staatliches;
+    font-size: 25px;
+    overflow: hidden;
+    margin: 0;
+    background-color: aliceblue;
+}
+.product-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.product, .quantity{
+    padding: 16px;
+}
+.addcart{
+    padding: 17px;
+    color: white;
+    background: teal;
+    border: 0;
+    cursor: pointer;
+}
+.addcart:hover{
+    background: rgb(1, 81, 95);
+}

@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <!-- style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <input type="text" placeholder="product" id="product-name">
-    <input type="text" placeholder="quantity" id="product-quantity">
-    <button onclick="addProduct()">Add Product</button>
+    <div class="product-cart">
+        <input type="text" placeholder="product" id="product-name" class="product">
+        <input type="text" placeholder="quantity" id="product-quantity" class="quantity">
+        <button onclick="addProduct()" class="addcart">Add Product</button>
+    </div>
+    
 
 
     <script src="js/index.js"></script>
