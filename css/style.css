@@ -1,28 +1,34 @@
 
 body{
-    font-family: Staatliches;
-    font-size: 25px;
-    overflow: hidden;
-    margin: 0;
-    background-color: aliceblue;
-}
-.product-cart{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
+    font-size: 1.563rem;
+    margin: 0;
+    background-color: aliceblue;
 }
-.product, .quantity{
-    padding: 16px;
+.product-input{
+    color: teal;
+    font-weight: 700;
 }
-.addcart{
-    padding: 17px;
+.product-input, .quantity-input{
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.addCart{
+    padding: 1.15rem;
     color: white;
     background: teal;
     border: 0;
     cursor: pointer;
 }
-.addcart:hover{
+.addCart:hover{
     background: rgb(1, 81, 95);
+}
+.product-list ul li{
+    color: teal;
 }
